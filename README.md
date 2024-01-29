@@ -69,11 +69,19 @@ Tested on Linux x64
 ## Setup
 
 ```shell
-pip3 install -r requirements.txt
+python3 -m venv venv
+venv/bin/python3 -m pip install --upgrade pip
+venv/bin/python3 -m pip install -r requirements.txt
+```
+
+## Run Jupyter Notebook
+
+```shell
+venv/bin/python3 -m jupyter notebook main.ipynb
 ```
 
 ## Formatting
 
 ```shell
-black .
+venv/bin/python3 -m black .
 ```
