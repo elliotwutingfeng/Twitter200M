@@ -3,5 +3,6 @@ black[jupyter]==24.1.1
 jupyter==1.0.0
 matplotlib==3.8.2
 polars==0.20.6
+psutil==5.9.8
 seaborn==0.13.2
 tldextract==5.1.1
