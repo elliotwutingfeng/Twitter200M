@@ -62,8 +62,8 @@ From 2016 onwards, new account signups dipped below 2009 levels, and have been o
 Tested on Linux x64
 
 - Fast multicore CPU
-- At least 64 GB RAM
-- Python 3.11
+- At least 16 GB available RAM
+- Python 3.11.7
 - [7zip](https://7-zip.org)
 
 ## Setup
