@@ -63,7 +63,7 @@ Tested on Linux x64
 
 - Fast multicore CPU
 - At least 16 GB available RAM
-- Python 3.11.7
+- Python 3.12.5
 - [7zip](https://7-zip.org)
 
 ## Setup
