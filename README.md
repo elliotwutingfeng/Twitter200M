@@ -1,6 +1,6 @@
 # Twitter200M
 
-[![GitHub license](https://img.shields.io/badge/LICENSE-BSD--3--CLAUSE-GREEN?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/LICENSE-BSD--3--CLAUSE-GREEN?style=for-the-badge)](LICENSE)
 
 Simple analysis of the [Twitter 200M Data Dump](https://haveibeenpwned.com/PwnedWebsites#Twitter200M) of January 2023.
 
@@ -63,25 +63,18 @@ Tested on Linux x64
 
 - Fast multicore CPU
 - At least 16 GB available RAM
-- Python 3.12.5
+- Python 3.14
+- [uv](https://docs.astral.sh/uv)
 - [7zip](https://7-zip.org)
-
-## Setup
-
-```shell
-python3 -m venv venv
-venv/bin/python3 -m pip install --upgrade pip
-venv/bin/python3 -m pip install -r requirements.txt
-```
 
 ## Run Jupyter Notebook
 
 ```shell
-venv/bin/python3 -m jupyter notebook main.ipynb
+uv run jupyter notebook main.ipynb
 ```
 
 ## Formatting
 
 ```shell
-venv/bin/python3 -m black .
+uv run ruff format .
 ```
